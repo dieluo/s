@@ -1,4 +1,4 @@
-proxy-groups:
+append-proxy-groups:
   - name: 🇰🇷
     type: select
     proxies:
@@ -10,7 +10,7 @@ proxy-groups:
     - "🇰🇷 韩国 AIA [South]"
     - "🇰🇷 韩国 BGP [01]"
     - "🇰🇷 韩国 BGP [02]"
-rules:
+prepend-rules:
   - DOMAIN-KEYWORD,daum,🇰🇷
   - DOMAIN-KEYWORD,naver,🇰🇷
   - DOMAIN-KEYWORD,kakao,🇰🇷
