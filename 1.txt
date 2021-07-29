@@ -1,0 +1,17 @@
+proxy-groups:
+  - name: 🇰🇷
+    type: select
+    proxies:
+    - Proxy
+    - DIRECT
+    - "🇰🇷 韩国 5G"
+    - "🇰🇷 韩国 AIA [East]"
+    - "🇰🇷 韩国 AIA [North]"
+    - "🇰🇷 韩国 AIA [South]"
+    - "🇰🇷 韩国 BGP [01]"
+    - "🇰🇷 韩国 BGP [02]"
+rules:
+  - DOMAIN-KEYWORD,daum,🇰🇷
+  - DOMAIN-KEYWORD,naver,🇰🇷
+  - DOMAIN-KEYWORD,kakao,🇰🇷
+  - DOMAIN-SUFFIX,tistory.com,🇰🇷
